@@ -1,4 +1,4 @@
-## Containers and DevOps workshop with .Net and Azure
+## Containers and DevOps workshop utilizing dotNet and Azure
 
 This intended to be a 5 hours+ workshop where the following material will be covered 
 
@@ -16,13 +16,13 @@ This intended to be a 5 hours+ workshop where the following material will be cov
     - DC/OS / Kubernetes
     - Service Fabric
 
-You will find the slides with the material <a href="container-workshop-material.pptx">here</a>
+Slides with the material will be available upon request. The workshop comes with a set of practical hands-on exercises.
 
 ## Hands-On & practical experience
 Practical hands-on experience will give you the chance to test out and play around with: 
 
-  - Visual studio 2017
-  - dotNETCore / AspNetCore
+  - Visual studio 2017 & docker support
+  - dotNETCore / AspNetCore 
   - Docker & Docker Compose
   - Kubernetes
   - Nano server
