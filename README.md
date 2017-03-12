@@ -29,5 +29,5 @@ Practical hands-on experience will give you the chance to test out and play arou
   - Azure App services
   - Service Fabric
 
-See hands-on exercises <a href="">here</a>
+See hands-on exercises <a href="hands-on/start.md">here</a>
     
