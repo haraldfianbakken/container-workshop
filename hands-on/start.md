@@ -7,6 +7,7 @@ Make sure you've installed the following before the workshop
  - Visual studio 2017
  - Visual studio code
  - Hyper-V and/or configured nested virtualization
+  - A VM running Windows server 2016
  - Docker
 
  
@@ -15,7 +16,7 @@ Make sure you've installed the following before the workshop
 - <a href="1-vs2017.md">Visual Studio 2017</a>   
 - <a href="2-dotnetcore.md">DotnetCore / AspNet Core</a>
 - <a href="3-dockerncompose.md">Docker & Docker compose</a>
-- <a href="4-orchestration.md">Orchestration</a>
-- <a href="5-windows-containers.md">Windows containers</a>
+- <a href="4-windows-containers.md">Windows containers</a>'
+- <a href="5-orchestration.md">Orchestration</a>
 - <a href="6-service-fabric.md">Service fabric</a>
 - <a hreF="7-azure-deployments.md">VSTS & Azure App services</a>

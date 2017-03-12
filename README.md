@@ -1,6 +1,6 @@
 ## Containers and DevOps workshop with .Net and Azure
 
-This intended to be a 4 hours+ workshop where the following material will be covered 
+This intended to be a 5 hours+ workshop where the following material will be covered 
 
  - Container theory
  - Docker
