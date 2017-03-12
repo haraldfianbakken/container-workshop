@@ -5,6 +5,7 @@ This intended to be a 4 hours+ workshop where the following material will be cov
  - Container theory
  - Docker
     - Docker compose
+ - Windows server Containers 
  - Nano server
  - DevOps
     - Packaging
@@ -15,16 +16,18 @@ This intended to be a 4 hours+ workshop where the following material will be cov
     - DC/OS / Kubernetes
     - Service Fabric
 
-You will find the slides with the material <a href="material.pptx">here</a>
+You will find the slides with the material <a href="container-workshop-material.pptx">here</a>
 
-## Hands-On
+## Hands-On & practical experience
 Practical hands-on experience will give you the chance to test out and play around with: 
 
-  - .NETCore / AspNetCore
+  - Visual studio 2017
+  - dotNETCore / AspNetCore
   - Docker & Docker Compose
   - Kubernetes
   - Nano server
   - Azure App services
   - Service Fabric
 
+See hands-on exercises <a href="">here</a>
     
