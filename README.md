@@ -5,8 +5,7 @@ This intended to be a 5 hours+ workshop where the following material will be cov
  - Container theory
  - Docker
     - Docker compose
- - Windows server Containers 
- - Nano server
+ - Windows Containers 
  - DevOps
     - Packaging
     - Deploying
@@ -21,13 +20,13 @@ Slides with the material will be available upon request. The workshop comes with
 ## Hands-On & practical experience
 Practical hands-on experience will give you the chance to test out and play around with: 
 
-  - Visual studio 2017 & docker support
+  - Visual studio (code+2017) & docker support
   - dotNETCore / AspNetCore 
   - Docker & Docker Compose
   - Kubernetes
-  - Nano server
+  - Windows containers
   - Azure App services
   - Service Fabric
 
-See hands-on exercises <a href="hands-on/start.md">here</a>
+See hands-on exercises <a href="hands-on/README.md">here</a>
     
