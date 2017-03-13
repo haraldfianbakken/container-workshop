@@ -105,11 +105,17 @@ deployment "hello-nginx" scaled
 .\kubectl.exe get deployment
 ```
 
+## Deployments by configuration
+Kubernetes accepts deployments from configuration using yaml. If you'd like to test this out, you can read the documentation here <a href="https://kubernetes.io/docs/tutorials/stateless-application/run-stateless-application-deployment/#updating-the-deployment">stateless deployments</a>
+
 ## Deploy your own images
 
 Now you can test and run the previously created containers.
 
-  - Deploy your API , Web and own Nginx containers
+  - Deploy your API , Web and own Nginx containers from your previous examples
+  - Configure the containers in kubernetes
+     - See if you can build the configuration (like docker compose) rather then configuring them individually
+     (e.g. compose2kube and inspect the output yaml files )
   - Scale them to e.g. 3 instances
 
 
@@ -120,6 +126,13 @@ Try configuring your API that processes images for autoscaling when your API get
 <a href="https://kubernetes.io/docs/user-guide/horizontal-pod-autoscaling/  ">Read documentation here</a>
 
 ## Running windows containers in Kubernetes
-If you'd like, you can try running the windows containers from previous example in Kubernetes. 
+If you'd like you can try running the windows containers from previous example in Kubernetes. 
 
 For more info <a href="https://kubernetes.io/docs/getting-started-guides/windows/">read documentation here</a>
+
+
+## Alternative tool to Kubernetes (Docker Swarm)
+You can choose to do the same exercises using docker swarm (docker native) support. For more info and comparission, these links provide good insights: 
+- <a href="https://technologyconversations.com/2015/11/04/docker-clustering-tools
+-compared-kubernetes-vs-docker-swarm/">Kubernetes vs docker swarm</a>
+- <a href="https://www.upcloud.com/blog/docker-swarm-vs-kubernetes/">Docker swarm vs kubernetes</a>
