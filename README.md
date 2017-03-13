@@ -21,7 +21,7 @@ Slides with the material will be available upon request. The workshop comes with
 Practical hands-on experience will give you the chance to test out and play around with: 
 
   - Visual studio (code+2017) & docker support
-  - dotNETCore / AspNetCore 
+  - dotNETCore / AspNetCore
   - Docker & Docker Compose
   - Kubernetes
   - Windows containers
