@@ -14,8 +14,12 @@ These handson exercises will give you some experience in managing and setting up
 
 ## Building your container
  - Explore the docker local commands
- - Built an image off a base image
- - Push your image to the private docker
+     - docker --help
+     - docker build --help
+ - Build an image off a base image
+    - List your local images
+ - Push your image to the private docker repository
+    - docker push --help
  
 ## Deploy docker container to Azure app service
  - Log in to Azure 
@@ -50,10 +54,8 @@ Optional:
  - Try: reconfigure VSTS to use your private container registry instead of docker
 
 ## Getting to know container services
- - Create a container service 
- 
-
- :: Incomplete description, add some more steps for various scaling scenarios
+ - Create a container service in portal.azure.com 
+ - Try recreating / or running your previously created container in the container services using kubernetes or one of the alternatives
  
 
 ## Getting to know Azure service fabric 
