@@ -29,4 +29,5 @@ Some material for reading
  - <a href="https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-containers-overview">Service fabric overview</a>
  - <a href="https://kubernetes.io/docs/user-guide/horizontal-pod-autoscaling/  ">Horizontal pod autoscaling in Kubernetes</a>
 - <a href="https://technet.microsoft.com/windows-server-docs/get-started/getting-started-with-nano-server">Nano server documentation</a>
- - <a href="https://blogs.technet.microsoft.com/nanoserver/2016/04/27/nanoserverapiscan-exe-updated-for-tp5/">This tool</a> can be useful to check if your apis and apps are compatible with nanoserver core.
+ - <a href="https://blogs.technet.microsoft.com/nanoserver/2016/04/27/nanoserverapiscan-exe-updated-for-tp5/">API chcker for nano server</a> 
+ - <a href="https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/">Docker on raspberry pi</a>
