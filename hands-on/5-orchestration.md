@@ -4,7 +4,7 @@ When working with large deployments and scalability, one should know a little ab
 
 These exercises will give you some idea on how to do and work with simple orchestration and scaling in the docker world. 
 
-NB: For this exercise you will have to have installed Hyper-V
+NB: For this exercise you will have to have installed Hyper-V. Switch back to linux containers when starting this demo.
 
 
 ## Getting started
@@ -123,7 +123,6 @@ Now you can test and run the previously created containers.
 
 Try configuring your API that processes images for autoscaling when your API gets to busy (e.g. over 65% cpu load).
 
-<a href="https://kubernetes.io/docs/user-guide/horizontal-pod-autoscaling/  ">Read documentation here</a>
 
 ## Running windows containers in Kubernetes
 If you'd like you can try running the windows containers from previous example in Kubernetes. 

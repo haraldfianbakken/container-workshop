@@ -52,13 +52,15 @@ You will now build your first nano server. Nano server is the cloud first server
  - Set shell to powershell
  - Install IIS
  - Install ASP.Net 4.5
- - Download a git repo from internet (of your choice) - explore commands
  - Build the container
  - Compare the size to the servercore
+ - Download a git repo from internet (of your choice) - explore commands (explore some powershell cmds)
+ - Remove the default web site
+ - Add a custom web site (with naming of your choice ), port 80 and a physical path where you put your web app
  - Expose the iis port and application in your docker file
  - Build and start the container
  - See that your web app is running
- - Try deploying a custom web application of your choice to the nano container
+
 
 
 
