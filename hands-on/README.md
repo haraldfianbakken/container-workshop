@@ -19,7 +19,7 @@ Make sure you've installed the following before starting the practical exercises
 - <a href="2-dotnetcore.md">DotnetCore / AspNet Core / NodeJS</a> [NOT OK]
 - <a href="3-dockerncompose.md">Docker & Docker compose</a> [ok]
 - <a href="4-windows-containers.md">Windows containers</a> [WIP]
-- <a href="5-orchestration.md">Orchestration</a> [WIP]
+- <a href="5-orchestration.md">Orchestration</a> [ok]
 - <a href="6-service-fabric.md">Service fabric</a> [WIP]
 - <a hreF="7-azure-deployments.md">VSTS & Azure App services</a> [ok]
 
