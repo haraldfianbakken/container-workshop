@@ -1,23 +1,72 @@
 # 4 - Windows containers
 
-Windows containers now fully supported with docker - you can now utilize the same deployment model and tooling but are able to run 
-familar and known capabilities in the container. These exercises will give you some hands-on on Windows container and see how to built various windows base images for your deployments.
+Windows containers now fully supported with docker - you can now utilize the same deployment model and tooling but are able to run familar and known capabilities in the container. These exercises will give you some hands-on on Windows container and see how to built various windows base images for your deployments.
 
 Make sure you've installed docker on your machine and enabled the Windows Container feature.
 **You can do this exercise on either a virtualized Hyper-V container or on your Windows 10 -box.**
 
+## Getting started
 
-## Nano server
+ - Switch to Windows containers on your docker for windows. 
+ - Install the powershell modules required for running the docker host
+ ```
+Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
+Install-Module -Name DockerMsftProvider -Force
+Install-Package -Name docker -ProviderName DockerMsftProvider -Force
+Restart-Computer -Force
+ ```
+  - If you're running the docker host in a Hyper-V environment, you'd want to expose this to the host-Os
 
-<a href="https://technet.microsoft.com/windows-server-docs/get-started/getting-started-with-nano-server">Nano server documentation</a>
+```
+# Open firewall port 2375 on server 2016
+netsh advfirewall firewall add rule name="docker engine" dir=in action=allow protocol=TCP localport=2375
 
+# Configure Docker daemon to listen on both pipe and TCP (replaces docker --register-service invocation above)
+Stop-Service docker
+dockerd --unregister-service
+dockerd -H npipe:// -H 0.0.0.0:2375 --register-service
+Start-Service docker
 
+# Invoke this on your HOST OS
+# $env:DOCKER_HOST = "<ip-address-of-vm>:2375"
+```
+
+Make sure docker is running and working
 
 ## Windows server core
+You will now build a base out from windows server core.
 
-## Running IIS
+  - Fetch a base image for server core
+  - Switch the powershell in your dockerfile
+  - Build and see that it runs OK
+  - Install .Net 4.5
+  - Build the container
+  - Find the size of your server core image
+  
+
+## Nano server with IIS
+
+You will now build your first nano server. Nano server is the cloud first server and is more lightweight.
+
+ - <a href="https://technet.microsoft.com/windows-server-docs/get-started/getting-started-with-nano-server">Nano server documentation</a>
+ - <a href="https://blogs.technet.microsoft.com/nanoserver/2016/04/27/nanoserverapiscan-exe-updated-for-tp5/">This tool</a> can be useful to check if your apis and apps are compatible with nanoserver core.
 
 
+ - Start with a clean base image for nano server
+ - Set shell to powershell
+ - Install IIS
+ - Install ASP.Net 4.5
+ - Build the container
+ - Compare the size to the servercore
+ - Expose the iis port and application in your docker file
+ - Build and start the container
+ - See that your web app is running
+ - Try deploying a custom web application of your choice to the nano container
+
+
+
+## Resources
+<a href="http://blog.alexellis.io/run-iis-asp-net-on-windows-10-with-docker/">1.</a>
 
 
 
