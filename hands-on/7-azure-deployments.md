@@ -1,4 +1,4 @@
-# 7 - Azure deployments
+# 7 - Azure and cloud deployments
 
 There's quite a few ways of building, deploying, running and managing containers in Azure today. 
 These handson exercises will give you some experience in managing and setting up some possible scenarios.
