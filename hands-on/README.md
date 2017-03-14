@@ -24,3 +24,9 @@ Make sure you've installed the following before starting the practical exercises
 - <a hreF="7-azure-deployments.md">VSTS & Azure App services</a> [ok]
 
 ## Resources
+Some material for reading
+ - <a href="http://blog.alexellis.io/run-iis-asp-net-on-windows-10-with-docker/">IIS on Win10 with docker</a>
+ - <a href="https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-containers-overview">Service fabric overview</a>
+ - <a href="https://kubernetes.io/docs/user-guide/horizontal-pod-autoscaling/  ">Horizontal pod autoscaling in Kubernetes</a>
+- <a href="https://technet.microsoft.com/windows-server-docs/get-started/getting-started-with-nano-server">Nano server documentation</a>
+ - <a href="https://blogs.technet.microsoft.com/nanoserver/2016/04/27/nanoserverapiscan-exe-updated-for-tp5/">This tool</a> can be useful to check if your apis and apps are compatible with nanoserver core.

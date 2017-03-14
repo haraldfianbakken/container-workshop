@@ -47,15 +47,12 @@ You will now build a base out from windows server core.
 ## Nano server with IIS
 
 You will now build your first nano server. Nano server is the cloud first server and is more lightweight.
-
- - <a href="https://technet.microsoft.com/windows-server-docs/get-started/getting-started-with-nano-server">Nano server documentation</a>
- - <a href="https://blogs.technet.microsoft.com/nanoserver/2016/04/27/nanoserverapiscan-exe-updated-for-tp5/">This tool</a> can be useful to check if your apis and apps are compatible with nanoserver core.
-
-
+ 
  - Start with a clean base image for nano server
  - Set shell to powershell
  - Install IIS
  - Install ASP.Net 4.5
+ - Download a git repo from internet (of your choice) - explore commands
  - Build the container
  - Compare the size to the servercore
  - Expose the iis port and application in your docker file
@@ -64,9 +61,6 @@ You will now build your first nano server. Nano server is the cloud first server
  - Try deploying a custom web application of your choice to the nano container
 
 
-
-## Resources
-<a href="http://blog.alexellis.io/run-iis-asp-net-on-windows-10-with-docker/">1.</a>
 
 
 
