@@ -23,6 +23,7 @@ Make sure you've installed the following before starting the practical exercises
 - <a href="6-service-fabric.md">Service fabric</a> 
 - <a hreF="7-azure-deployments.md">VSTS & Azure App services</a> 
 
+
 ## Resources
 Some material for reading
  - <a href="http://blog.alexellis.io/run-iis-asp-net-on-windows-10-with-docker/">IIS on Win10 with docker</a>
