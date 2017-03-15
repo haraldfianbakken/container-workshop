@@ -6,9 +6,10 @@ If you haven't done so already; install dotnetcore on your machine.
 
 You should do these exercises with VSCode and commandline to get more learning from the process. 
 
+For hinst, check out <a href="https://code.visualstudio.com/docs/runtimes/dotnet">here</a>
+
 **NB:** Make sure you've installed Visual Studio Code <a href="https://code.visualstudio.com/">here</a>
 
-:: Exercise is incomplete (SE)
 
 ## DotNetCore
 
@@ -16,11 +17,6 @@ You should do these exercises with VSCode and commandline to get more learning f
 - create new .NET Core Console app using the console
 - run app from console
 - open same app in VSC and run it
-- type "dotnet new" in console where you want to setup your project
-- type "dotnet restore" to resolve build assets
-- type "dotnet run"
-- open Visual Studio Code in same folder
-- try to run application from VSC
 
 ## Create ASP.NET Core application
 - create new ASP.NET Core app using the console
