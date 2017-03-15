@@ -13,11 +13,14 @@ You should do these exercises with VSCode and commandline to get more learning f
 - Install Visual Studio Code (on Mac or Window)
 - Install .NET Core SDK
 
-## Create your first application
+## Create your first console application
 - type "dotnet new" in console where you want to setup your project
 - type "dotnet restore" to resolve build assets
 - type "dotnet run"
 - open Visual Studio Code i same folder
 - try to run applikation from VSC
-## 
+
+## Create your first ASP.NET Core application
+- create new folder
+- type "dotnet new webapi"
 
