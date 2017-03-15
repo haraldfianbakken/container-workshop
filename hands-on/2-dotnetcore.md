@@ -6,24 +6,24 @@ If you haven't done so already; install dotnetcore on your machine.
 
 You should do these exercises with VSCode and commandline to get more learning from the process. 
 
-For hints, check out <a href="https://code.visualstudio.com/docs/runtimes/dotnet">here</a>
+For hints, check out <a href="https://code.visualstudio.com/docs/runtimes/dotnet">here</a> and <a href="https://code.visualstudio.com/docs/runtimes/nodejs">here</a>
 
 **NB:** Make sure you've installed Visual Studio Code <a href="https://code.visualstudio.com/">here</a>
 
 
 ## DotNetCore
+### Console application
+- Create new .NET Core Console app using command/powershell
+- Run app from command/powershell
+- Debug same app in Visual Studio Code
 
-## Create console application
-- create new .NET Core Console app using the console
-- the Console app should take inn prompt from user and write it back
-- run app from console
-- open same app in VSC and run it
+### ASP.NET Core application
+- Create new ASP.NET Core app using command/powershell
+- Run app from command/powershell
+- Debug same app in Visual Studio Code
 
-## Create ASP.NET Core application
-- create new ASP.NET Core app using the console
-- run app from console
-- open Visual Studio Code in same folder
-- debug application from VSC
-
-## Create your first Node.js application
-- 
+## Node.js
+## Express application
+- Install Node.js if not already done
+- Create a simple node.js app with the Express-framework
+- Optional: Deploy it to Azure using the Azure CLI
