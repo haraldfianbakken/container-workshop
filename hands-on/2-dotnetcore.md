@@ -6,7 +6,7 @@ If you haven't done so already; install dotnetcore on your machine.
 
 You should do these exercises with VSCode and commandline to get more learning from the process. 
 
-For hinst, check out <a href="https://code.visualstudio.com/docs/runtimes/dotnet">here</a>
+For hints, check out <a href="https://code.visualstudio.com/docs/runtimes/dotnet">here</a>
 
 **NB:** Make sure you've installed Visual Studio Code <a href="https://code.visualstudio.com/">here</a>
 
