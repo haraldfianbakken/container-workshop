@@ -10,7 +10,14 @@ You should do these exercises with VSCode and commandline to get more learning f
 
 ## DotNetCore
 
-## Create your first application
+- Install Visual Studio Code (on Mac or Window)
+- Install .NET Core SDK
 
+## Create your first application
+- type "dotnet new" in console where you want to setup your project
+- type "dotnet restore" to resolve build assets
+- type "dotnet run"
+- open Visual Studio Code i same folder
+- try to run applikation from VSC
 ## 
 
