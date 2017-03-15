@@ -17,10 +17,15 @@ You should do these exercises with VSCode and commandline to get more learning f
 - type "dotnet new" in console where you want to setup your project
 - type "dotnet restore" to resolve build assets
 - type "dotnet run"
-- open Visual Studio Code i same folder
+- open Visual Studio Code in same folder
 - try to run applikation from VSC
 
 ## Create your first ASP.NET Core application
 - create new folder
 - type "dotnet new webapi"
+- type "dotnet run"
+- open Visual Studio Code in same folder
+- try to run applikation from VSC
 
+## Create your first Node.js application
+- create new folder
