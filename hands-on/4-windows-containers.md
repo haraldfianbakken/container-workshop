@@ -15,10 +15,10 @@ Install-Module -Name DockerMsftProvider -Force
 Install-Package -Name docker -ProviderName DockerMsftProvider -Force
 Restart-Computer -Force
  ```
-  - If you're running the docker host in a Hyper-V environment, you'd want to expose this to the host-Os
+  - NB: If you're running the docker host in a Hyper-V environment, you'd want to expose this to the host-Os
 
 ```
-# Open firewall port 2375 on server 2016
+# Open firewall port 2375 on server 2016 to be able to set remote docker host
 netsh advfirewall firewall add rule name="docker engine" dir=in action=allow protocol=TCP localport=2375
 
 # Configure Docker daemon to listen on both pipe and TCP (replaces docker --register-service invocation above)

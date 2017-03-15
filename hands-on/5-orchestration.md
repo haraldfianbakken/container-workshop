@@ -7,24 +7,27 @@ These exercises will give you some idea on how to do and work with simple orches
 NB: For this exercise you will have to have installed Hyper-V. Switch back to linux containers when starting this demo.
 
 
-## Getting started
+## Getting started  
   - Install Minikube into c:\kube\
+  - Install kubectl into c:\kube
   - Set the path to c:\kube
   - Make sure you can run minikube.exe 
   - verify the version
   - Check $home\.minikube (or %HOMEPATH%\.minikube)
   - Explore the help utils "minikube.exe --help"
 
+NB: If you have trouble getting it to run, you can always try the bash version on Windows 10 (Wh0000t!). Click <a hreF="https://gist.github.com/AdamLJohnson/16b55b66c84ce53868b3923f3b7ae706">for details</a>
 
 ## Starting your cluster
    - Explore the help for starting 
        - minikube.exe start --help
-   - Start the local cluster by doing the following
+   - Start the local cluster by doing the following (driver could also be virtualbox)
 ``` 
-.\minikube.exe start --kubernetes-version="v1.4.0" 
-                             --vm-driver="virtualbox" 
+.\minikube.exe start --kubernetes-version="v1.5.2" 
+                             --vm-driver="hyperv" 
                              --show-libmachine-logs --alsologtostderr
 ```
+
 
 This will do the following
 
@@ -33,14 +36,23 @@ This will do the following
   3. Fixes IPs and the stuff
   4. Shows a message that all went well.
 
+
+If you have trouble; try creating a VNet switch with external network first and setting it up using --hyperv-virtual-switch="KubeSwitch"
   Check the status of kubernetes:
 
 ```minikube.exe -status ```
 
+minikubeVM should be running
+localKube should be running
+
+To add extra logging add arguments --v=7 --alsologtostderr
 
 Get cluster information
 
 ```kubectl.exe -cluster-info ```
+
+## Start Hyper-V Manager
+ Notice you've got a new machine!
 
 ## Show the dashboard and the nodes attached
 

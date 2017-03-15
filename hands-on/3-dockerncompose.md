@@ -8,6 +8,28 @@ For inspiration for images, check out : <a href="https://hub.docker.com/explore/
 
 **NB:** Make sure you've installed the docker for windows <a href="https://docs.docker.com/docker-for-windows/install/#download-docker-for-windows">here</a>
 
+## Getting to know docker
+ - show docker help
+ - show images installed on your computer
+ - create a hello world image that prints hello world on build
+ - Build the container and see the output
+ - Run the container
+      - Why does it not show the output now?
+ - Show running containers 
+ - Show all containers on your machine
+    - What and why is your previous container status as it is?
+ - Build and tag the container in one "go"
+ - Update your docker file, and add a RUN statement with some code
+ - Build your container
+    - What is now the version?
+    - List all containers on your machine
+ - Create a new container based on ubuntu
+ - Start an interactive docker container
+    - Exit it without quitting the running container
+ - List running containers
+ - Start another command window and attach the docker container from this window
+
+
 ## Build your first container (database)
  - Find a database (base) image of your choice (postgres,mssql,mysql)
  - Create a simple database schema 
