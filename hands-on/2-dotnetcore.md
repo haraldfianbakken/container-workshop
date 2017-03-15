@@ -1,4 +1,4 @@
-# 2 - dotNETCore / Aspnet core / NodeJS
+# 2 - DotNetCore / AspNetCore / NodeJS
 
 You will get to know the dotnetcore commandline tools and how to build dotnetcore apps from scratch. 
 
