@@ -15,6 +15,7 @@ For hints, check out <a href="https://code.visualstudio.com/docs/runtimes/dotnet
 
 ## Create console application
 - create new .NET Core Console app using the console
+- the Console app should take inn prompt from user and write it back
 - run app from console
 - open same app in VSC and run it
 
